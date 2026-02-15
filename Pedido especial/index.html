@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de viajes</title>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+        .header{
+            color: red;
+        }
+        .uth{
+            color: navy;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="header" align="center">Reserva de viajes</h1>
+    <h2 class="uth" align="center">Ingresa los siguientes datos</h2>
+    <form class="forli" align="center">
+        <fieldset style="border: solid rgb(34, 0, 255);"  >
+            <legend>Datos personales</legend>
+            <label for="nombre">Ingrese nombres</label> <br>
+            <input type="text" id="nombre" name="nombre"> <br>
+            <label for="apellido">ingrese apellidos</label> <br>
+            <input type="text" name="apellido" id="apellido"> <br>
+            <label for="edad">ingrese fecha de nacimiento</label> <br>
+            <input type="date" name="edad" id="edad"> <br>
+            
+
+        </fieldset>
+        <fieldset style="border: solid rgb(34, 0, 255);">
+            <legend>Datos de viaje </legend>
+            <label for="uname">Ingrese Nombre</label> <br>
+            <input type="text" id="uname" name="uname"> <br>
+            <label for="correo">Ingresa correo electronico</label> <br>
+            <input type="email" id="correo" name="correo" placeholder="example@gmail.com" > <br>
+            <label for="num">Numero de celular</label> <br>
+            <input type="number" id="num" name="num"> <br>
+            <label for="acomp">Numero de acompañantes</label> <br>
+            <input type="number" name="acomp" id="acomp" step="1" min="1" max="5"> <br>
+            <label for="precedencia">Lugar de origen</label> <br>
+            <input type="text" id="procedencia" name="procedencia" value="San salvador" readonly>
+            <br>
+            <label for="llega">Lugar de llegada </label>
+            <select name="llega" id="llega">
+                <option value="venecia">Venecia</option>
+                <option value="florencia">Florencia</option>
+                <option value="barcelona">Barcelona</option>
+                <option value="Lauterbrunnen">Lauterbrunnen</option>
+                <option value="Quiché">Quiché</option>
+                <option value="Hyrule">Hyrule</option>
+                <option value="Raccoon City">Raccoon City</option>
+                <option value="Pandora">Pandora</option>
+                <option value="Estrella de la muerte">Estrella de la muerte</option>
+                <option value="Valhalla">Valhalla</option>
+                <option value="Asgard">Asgard</option>
+                <option value="San Fransokio">San Fransokio</option>
+                <option value="Hollownest">Hollownest</option>
+                </select> <br>
+                
+
+
+
+
+            
+        </fieldset>
+        
+        <input type="submit"> <input type="reset">
+
+    </form>
+
+    
+</body>
+</html>
