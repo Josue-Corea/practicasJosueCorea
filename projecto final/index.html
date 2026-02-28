@@ -7,7 +7,8 @@
     <style>
         table,th,td{
             border: 1px solid black;
-            border-collapse: collapse;
+            border-collapse: collapse; background-color: pink;
+            justify-content: center;
         }
 
         body{
@@ -29,10 +30,28 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             align-content: center;
         }
+        p, label{
+            color: pink;
+        }
+        .tpm{
+            color: pink;
+        }
+        .tpa{
+            color: pink;
+        }
+        h3, legend{
+            color: yellow;
+        }
+        fieldset{
+            border-color: purple ;
+            width: 300px;
+            margin-left: 585px;
+        } 
         
     </style>
 </head>
 <body>
+    <header>
     <h1 class="h1" align="center">Garnet</h1>
     <nav>
         <ul>
@@ -43,7 +62,7 @@
           <li><a href="#s5">Galeria</a></li>  
         </ul>
     </nav>
-    <header>
+    </header>
         <main>
             <section>
                 <h2 id="s1" align="center">Historia</h2>
@@ -74,49 +93,59 @@
                 solo de sus poderosos guantes ni de su visión del futuro, sino de la decisión continua de amarse. <br>
                 En un universo marcado por jerarquías rígidas, Garnet existe como prueba de que el amor puede romper cualquier <br>
                 estructura y crear algo nuevo, estable y profundamente auténtico.</p>
+                <img src="img/images.jpeg" alt="garnet img" height="400" width="400">
 
             </section>
             <section>
                 <h2 id="s2" align="center">Informacion</h2>
                 <h3>caracterizticas y habilidades</h3>
-               <ul>
+               <ul class="tpa">
                 <li>Visión del futuro: <br>
-                    Puede ver múltiples posibles futuros y calcular probabilidades (habilidad heredada de Sapphire).</li>
+                    Puede ver múltiples posibles futuros y calcular probabilidades (habilidad heredada de Sapphire). <br>
+                    <img src="img/descarga.png" alt="garnet" height="135" width="150">
+                </li> <br>
                 <li>Fusión estable permanente: <br>
-                    Es una fusión constante de Ruby y Sapphire sin perder estabilidad.</li>
+                    Es una fusión constante de Ruby y Sapphire sin perder estabilidad. <br>
+                <img src="img/garnet-sapphire.gif" alt="garnet" height="135" width="150"></li> <br>
                 <li>Invocación de armas: <br>
-                    Puede materializar sus poderosos guantes gigantes para el combate.</li>
+                    Puede materializar sus poderosos guantes gigantes para el combate. <br>
+                <img src="img/Brillo_de_Gema-179.jpg" alt="garnet" height="108" width="192"></li> <br>
                 <li>Resistencia extrema: <br>
-                    Soporta grandes daños físicos sin desestabilizarse fácilmente.</li>
+                    Soporta grandes daños físicos sin desestabilizarse fácilmente. <br>
+                <img src="img/fighting-steven-universe.gif" alt="garnet" height="108" width="192"></li></li> <br>
                 <li>Estratega experta: <br>
-                    Toma decisiones basadas en probabilidades futuras.</li>
+                    Toma decisiones basadas en probabilidades futuras. <br>
+                <img src="img/garnet-dancing.gif" alt="garnet" height="108" width="192"></li></li>
                </ul>
                <h3>Top 3 mejores momentos</h3>
-               <ol>
+               <ol class="tpm">
                 <li>“Stronger Than You” (Temporada 1 – Jailbreak) <br> <br>
 
 Cuando se revela que Garnet es una fusión permanente de Ruby y Sapphire, y canta Stronger Than You <br>
 mientras pelea contra Jasper. <br> <br>
-🔥 Es el momento que redefine la serie: amor, identidad y fuerza emocional convertidos en poder literal.</li>
+🔥 Es el momento que redefine la serie: amor, identidad y fuerza emocional convertidos en poder literal. <br>
+<img src="img/garnet vs.gif" alt="garnet" height="108" width="192"></li> <br>
                 <li>La boda de Ruby y Sapphire (Temporada 5 – “Reunited”) <br> <br>
 
 Garnet se separa para que Ruby y Sapphire puedan casarse, en una de las escenas más importantes de la <br>
 animación moderna. <br> <br>
 💍 La boda es interrumpida por el ataque de las Diamantes, pero el momento queda grabado como un <br>
- símbolo de representación y amor genuino.</li>
+ símbolo de representación y amor genuino. <br>
+<img src="img/fangirling.gif" alt="garnet" height="108" width="192"></li> <br>
  <li>Garnet como mentora de Steven <br> <br>
 
 A lo largo de la serie, especialmente en episodios donde guía a Steven Universe, Garnet muestra su lado <br>
  más sabio y protector. <br> <br>
-👁️ Con su “visión futura”, le enseña a Steven sobre decisiones, responsabilidad y crecimiento emocional</li>
+👁️ Con su “visión futura”, le enseña a Steven sobre decisiones, responsabilidad y crecimiento emocional <br>
+<img src="img/descarga.jpeg" alt="garnet" height="108" width="192"></li>
                </ol>
                
             </section>
             <section>
-                <h2 id="s3">Ficha tecnica</h2>
-                <table>
+                <h2 align="center" id="s3">Ficha tecnica</h2>
+                <table align="center">
                     
-                </table>
+               
                 <tr>
                     <th>Edad</th>
                     <th>Peso</th>
@@ -136,13 +165,50 @@ A lo largo de la serie, especialmente en episodios donde guía a Steven Universe
                          
 
                 </tr>
-               
+                </table>
 
 
             </section>
+            <section>
+                <h2 id="s4" align="center">Registro de fans</h2>
+                <form align="center">
+                    <fieldset >
+                                <legend>Datos personales </legend>
+            <label for="uname">Ingrese Nombre</label> <br> 
+            <input type="text" id="uname" name="uname"> <br> <br>
+            <label for="correo">Ingresa correo electronico</label> <br>
+            <input type="email" id="correo" name="correo" placeholder="example@gmail.com" > <br>
+            <label for="num">Numero de celular</label> <br> <br>
+             <input type="submit" name="submit" id="submit" >
+             <input type="reset" name="s" id="s">
+            </fieldset>
+                </form>
+
+            </section>
+            <section>
+                <h2 id="s5" align="center">Galeria</h2>
+                <div align="center">
+                <img src="img/garnet.gif" alt="garnet" height="108" width="192">
+                <img src="img/garnet-steven-universe.gif" alt="garnet" height="108" width="192">
+                <img src="img/stevenuniverse-getoutofmyface.gif" alt="garnet" height="108" width="192"> <br>
+                <img src="img/garnet-steven-universe (1).gif" alt="garnet" height="108" width="192">
+                <img src="img/garnet-moments.gif" alt="garnet" height="108" width="192">
+                <img src="img/garnet-steven-universe (2).gif" alt="garnet" height="108" width="192"> <br>
+                <img src="img/garnet-steven-universe (4).gif" alt="garnet" height="108" width="192">
+                <img src="img/garnet-steven-universe (3).gif" alt="garnet" height="108" width="192">
+                <img src="img/steven-universe.gif" alt="garnet" height="108" width="192">
+              </div>
+                 
+            </section>
+            <footer>
+                <p>Creado por Josue Corea</p> 
+                <p>©Todos los derechos reservados</p>
+                <a href="https://steven-universe.fandom.com/wiki/Garnet" target="_blank" >Wiki oficia</a>
+                
+            </footer>
               
         </main>
-    </header>
+   
 
     
 </body>
