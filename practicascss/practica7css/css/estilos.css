@@ -4,7 +4,6 @@ margin: 0;
 padding: 0;
 background-color: #f0f2f5;
 }
-/* 1. COMPORTAMIENTO STATIC (Por defecto) */
 .reproductor {
 width: 300px;
 margin: 50px auto;
@@ -12,7 +11,6 @@ background-color: white;
 padding: 20px;
 border-radius: 15px;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-/* Aunqueno lo pongamos, su posiciónes static */
 }
 body {
 font-family: Arial, sans-serif;
@@ -20,9 +18,8 @@ margin: 0;
 padding: 0;
 background-color: #f0f2f5;
 }
-/* 2. EL PADRE RELATIVO (Fundamental para el Absolute) */
 .album-art {
-position: relative; /* "Encierra" a los elementos absolutos dentro */
+position: relative;
 width: 200px;
 height: 200px;
 margin: 0 auto;
@@ -31,7 +28,6 @@ margin: 0 auto;
 width: 100%;
 border-radius: 10px;
 }
-/* 3. POSICIONAMIENTO ABSOLUTE */
 .badge-vivo {
 position: absolute;
 top: 10px; /* Se ancla a 10px del borde superior del padre */
@@ -42,13 +38,12 @@ padding: 5px 10px;
 font-size: 12px;
 font-weight: bold;
 border-radius: 5px;
-z-index: 10; /* Asegura que esté por encima de la imagen */
+z-index: 10; 
 }
-/* 4. POSICIONAMIENTO RELATIVE (Ajuste fino) */
 .heart-icon {
 position: relative;
-top: -5px; /* Sube 5px de su posición original sin mover lo demás */
-left: 5px; /* Se mueve a la derecha */
+top: -5px; 
+left: 5px; 
 cursor: pointer;
 font-size: 20px;
 display: inline-block;
@@ -57,13 +52,12 @@ display: inline-block;
 text-align: center;
 margin-top: 15px;
 }
-/* 5. POSICIONAMIENTO FIXED */
 .player-bar-fixed {
 position: fixed;
-bottom: 0; /* Pegado al fondo de la VENTANA */
+bottom: 0; 
 left: 0;
-width: 100%; /* Ocupa todoel ancho */
-background-color: #1DB954; /* Verde Spotify */
+width: 100%; 
+background-color: #1DB954; 
 color: white;
 padding: 15px;
 display: flex;
