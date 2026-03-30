@@ -1,51 +1,119 @@
- table,th,td{
-            border: 1px solid black;
-            border-collapse: collapse; background-color: pink;
-            justify-content: center;
-            font-family: "Gravitas One", serif;
-            font-weight: 10;
-            font-size: 0.8rem;
-        }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        body{
-            background-color: rgb(107, 2, 29);
-        }
-        h1{
-            color: rgb(255, 255, 255);
-            font-family: "Momo Signature", cursive;
-            font-weight: 100;
-            align-content: center;
-        }
-        h2{
-            color: rgb(241, 243, 97);
-            font-family: "Playwrite IE", cursive;
-            font-weight: 500;
-          
-            
-        }
-        a{
-            color: rgb(255, 255, 255);
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            align-content: center;
-        }
-        p, label, li, a{
-            color: rgb(255, 192, 203);
-            justify-content: center;
-            font-family: "Gravitas One", serif;
-            font-weight: 10;
-            font-size: 0.8rem;
-        }
-        .tpm{
-            color: rgb(255, 192, 203);
-        }
-        .tpa{
-            color: rgb(255, 192, 203);
-        }
-        h3, legend{
-            color: rgb(255, 255, 0);
-        }
-        fieldset{
-            border-color: rgb(128, 0, 128) ;
-            width: 300px;
-            margin-left: 585px;
-        } 
+body{
+    background-color: rgb(107, 2, 29);
+    font-family: "Playwrite IE", cursive;
+    color: rgb(255, 192, 203);
+}
+
+header{
+    background-color: #222;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: "Momo Signature", cursive;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul li a:hover{
+    color: #ff4d6d;
+}
+
+section{
+    background-color: rgba(0,0,0,0.4);
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 900px;
+}
+
+h2{
+    color: rgb(241, 243, 97);
+    font-family: "Playwrite IE", cursive;
+    text-align: center;
+}
+
+h3, legend{
+    color: rgb(255, 255, 0);
+}
+
+p, label, li{
+    color: rgb(255, 192, 203);
+    font-family: "Gravitas One", serif;
+    font-size: 0.8rem;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+.tpa{
+    color: rgb(255, 192, 203);
+    margin-left: 20px;
+}
+
+.tpm{
+    color: rgb(255, 192, 203);
+    margin-left: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td{
+    border: 1px solid white     ;
+   
+    padding: 8px;
+    text-align: center;
+    font-family: "Gravitas One", serif;
+    font-size: 0.8rem;
+}
+
+fieldset{
+    border: 2px solid rgb(128, 0, 128);
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+input{
+    margin: 5px;
+    padding: 5px;
+}
+
+#s5 + div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer{
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
