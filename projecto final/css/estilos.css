@@ -1,0 +1,51 @@
+ table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse; background-color: pink;
+            justify-content: center;
+            font-family: "Gravitas One", serif;
+            font-weight: 10;
+            font-size: 0.8rem;
+        }
+
+        body{
+            background-color: rgb(107, 2, 29);
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            font-family: "Momo Signature", cursive;
+            font-weight: 100;
+            align-content: center;
+        }
+        h2{
+            color: rgb(241, 243, 97);
+            font-family: "Playwrite IE", cursive;
+            font-weight: 500;
+          
+            
+        }
+        a{
+            color: rgb(255, 255, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            align-content: center;
+        }
+        p, label, li, a{
+            color: rgb(255, 192, 203);
+            justify-content: center;
+            font-family: "Gravitas One", serif;
+            font-weight: 10;
+            font-size: 0.8rem;
+        }
+        .tpm{
+            color: rgb(255, 192, 203);
+        }
+        .tpa{
+            color: rgb(255, 192, 203);
+        }
+        h3, legend{
+            color: rgb(255, 255, 0);
+        }
+        fieldset{
+            border-color: rgb(128, 0, 128) ;
+            width: 300px;
+            margin-left: 585px;
+        } 
