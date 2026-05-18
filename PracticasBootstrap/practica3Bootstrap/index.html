@@ -52,26 +52,34 @@ Usando <span class="badge bg-danger">.badge</span> con un
 y colores de énfasis suaves.
 </p>
 </section>
-<div>
-    <div>   
-        <h1>Estado del servidor</h1>
-        <p class="text-muted">Panle de control de servicios activos</p>
+<div class="container mt-5">
+    <div class="p-4 rounded text-bg-white
+">
+        
+        <h1 class="display-6">Estado del servidor</h1>
+        
+        <p class="text-white-50">
+            Panel de control de servicios activos
+        </p>
+
         <hr>
-        <div class="text-bg-danger badge">
-            <span>aviso:</span>
+
+        <div class="alert alert-danger">
+            <span class="fw-bold">Aviso:</span>
             La base de datos no responde
         </div>
 
-        <div>
-            <span>sistema:</span>
-            Todos los demás servicios estan <span>operativos</span>
+        <div class="alert alert-success">
+            <span class="fw-bold">Sistema:</span>
+            Todos los demás servicios están operativos
         </div>
-        
-        <p>
-            última actualización: <span>Hace 5 minutos</span>
+
+        <p class="text-info">
+            Última actualización:
+            <span class="fw-bold">Hace 5 minutos</span>
         </p>
+
     </div>
-</div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
